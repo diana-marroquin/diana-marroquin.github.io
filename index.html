@@ -3,184 +3,181 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Diana Isabel Marroquín Sandoval | Política pública para la primera infancia</title>
-<meta name="description" content="Asesora y especialista en construcción e implementación de política pública para la primera infancia. Más de 23 años de experiencia. Bogotá, Colombia.">
+<title>Diana Isabel Marroquín Sandoval | Consultora en Educación Infantil</title>
+<meta name="description" content="Asesora y Especialista en Construcción e Implementación de Política Pública para la Primera Infancia. Más de 23 años de experiencia. Bogotá, Colombia.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
 <style>
 :root {
-  --paper: #FFFFFF;
-  --mist: #EEF3FB;
-  --line: #D5DEEC;
-  --text: #1C2B45;
-  --slate: #4A5A72;
+  --bg: #F3F6FB;
+  --card: #FFFFFF;
+  --text: #1A1A2E;
+  --body: #334155;
+  --muted: #64748B;
+  --line: #E2E8F0;
   --blue: #0052CC;
-  --blue-hover: #0046AD;
-  --on-blue: #FFFFFF;
-  --ink: #13233F;
-  --on-ink: #E9EFF8;
-  --on-ink-soft: #A9B8D0;
-  --cover-shadow: 0 18px 40px -18px rgba(19, 35, 63, .45);
-  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
-  --sans: "Public Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --blue-2: #1B69FF;
+  --teal: #00C2A0;
+  --tint: rgba(0, 82, 204, .08);
+  --tint-strong: rgba(0, 82, 204, .14);
+  --shadow: 0 2px 10px rgba(15, 35, 80, .06);
+  --shadow-hover: 0 14px 30px rgba(0, 82, 204, .14);
+  --display: "Sora", "Inter", system-ui, sans-serif;
+  --sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   box-sizing: border-box;
   padding-top: env(safe-area-inset-top, 0px);
   padding-bottom: env(safe-area-inset-bottom, 0px);
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --paper: #0E192C; --mist: #14233B; --line: #263957; --text: #E5EBF5; --slate: #A7B5CB;
-    --blue: #6E9FFF; --blue-hover: #8DB3FF; --on-blue: #0B1628; --ink: #0A1424;
-    --cover-shadow: 0 18px 40px -18px rgba(0, 0, 0, .7);
+    --bg: #0D1526; --card: #152038; --text: #EEF2FA; --body: #C9D3E3; --muted: #93A1B8; --line: #25324D;
+    --blue: #6FA2FF; --tint: rgba(111, 162, 255, .12); --tint-strong: rgba(111, 162, 255, .2);
+    --shadow: 0 2px 10px rgba(0, 0, 0, .35); --shadow-hover: 0 14px 30px rgba(0, 0, 0, .5);
   }
 }
 :root[data-theme="dark"] {
-  --paper: #0E192C; --mist: #14233B; --line: #263957; --text: #E5EBF5; --slate: #A7B5CB;
-  --blue: #6E9FFF; --blue-hover: #8DB3FF; --on-blue: #0B1628; --ink: #0A1424;
-  --cover-shadow: 0 18px 40px -18px rgba(0, 0, 0, .7);
+  --bg: #0D1526; --card: #152038; --text: #EEF2FA; --body: #C9D3E3; --muted: #93A1B8; --line: #25324D;
+  --blue: #6FA2FF; --tint: rgba(111, 162, 255, .12); --tint-strong: rgba(111, 162, 255, .2);
+  --shadow: 0 2px 10px rgba(0, 0, 0, .35); --shadow-hover: 0 14px 30px rgba(0, 0, 0, .5);
 }
 *, *::before, *::after { box-sizing: inherit; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; scroll-padding-top: calc(env(safe-area-inset-top, 0px) + 76px); }
-body { background: var(--paper); color: var(--text); font-family: var(--sans); font-size: 1.0625rem; line-height: 1.6; -webkit-font-smoothing: antialiased; }
-img { max-width: 100%; }
+html { scroll-behavior: smooth; }
+body { font-family: var(--sans); color: var(--body); background: var(--bg); line-height: 1.6; font-size: 1rem; -webkit-font-smoothing: antialiased; }
 a { color: inherit; }
-:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; border-radius: 4px; }
-.wrap { width: min(1120px, 100% - 2.5rem); margin-inline: auto; }
-.site svg { width: 1.1em; height: 1.1em; flex: none; }
+img { max-width: 100%; }
+:focus-visible { outline: 3px solid var(--blue-2); outline-offset: 3px; border-radius: 6px; }
+.site svg { width: 1.05em; height: 1.05em; flex: none; }
+.wrap { width: min(1140px, 100% - 2.5rem); margin-inline: auto; }
 
-/* NAV */
-.nav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 10; background: color-mix(in srgb, var(--paper) 92%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
-.nav .wrap { display: flex; align-items: center; justify-content: space-between; gap: 1rem; height: 64px; }
-.brand { font-family: var(--serif); font-weight: 600; font-size: 1.1rem; text-decoration: none; letter-spacing: -.005em; }
-.nav-links { display: flex; align-items: center; gap: 1.75rem; list-style: none; font-size: .95rem; }
-.nav-links a { text-decoration: none; color: var(--slate); }
-.nav-links a:hover { color: var(--text); }
-.btn { display: inline-flex; align-items: center; gap: .55rem; font: 600 .98rem/1 var(--sans); padding: .9rem 1.3rem; border-radius: 8px; border: 1.5px solid var(--blue); background: var(--blue); color: var(--on-blue); cursor: pointer; text-decoration: none; transition: background .15s, border-color .15s; }
-.btn:hover { background: var(--blue-hover); border-color: var(--blue-hover); }
-.btn.ghost { background: transparent; color: var(--blue); }
-.btn.ghost:hover { background: var(--mist); }
-.btn.sm { padding: .6rem .95rem; font-size: .9rem; white-space: nowrap; }
+/* ---------- HERO ---------- */
+.hero { position: relative; overflow: hidden; color: #FFFFFF; background: linear-gradient(120deg, #0052CC 0%, #1B69FF 55%, #0066FF 100%); padding: clamp(3rem, 7vw, 5rem) 0 clamp(5.5rem, 10vw, 7rem); }
+.hero::before, .hero::after { content: ""; position: absolute; border-radius: 50%; pointer-events: none; }
+.hero::before { width: 520px; height: 520px; right: -140px; top: -220px; background: rgba(255, 255, 255, .09); }
+.hero::after { width: 380px; height: 380px; right: 180px; bottom: -260px; background: rgba(0, 194, 160, .16); }
+.hero .wrap { position: relative; z-index: 1; }
+.hero h1 { font-family: var(--display); font-weight: 800; font-size: clamp(2.1rem, 5vw, 3.4rem); line-height: 1.08; letter-spacing: -.025em; }
+.hero .role { margin-top: .9rem; font-size: clamp(1rem, 1.7vw, 1.2rem); font-weight: 500; opacity: .95; max-width: 60ch; }
+.pills { display: flex; flex-wrap: wrap; gap: .7rem; margin-top: 1.6rem; list-style: none; }
+.pill { display: inline-flex; align-items: center; gap: .5rem; padding: .55rem 1.05rem; border-radius: 999px; background: rgba(255, 255, 255, .18); border: 1px solid rgba(255, 255, 255, .22); font-size: .92rem; font-weight: 500; text-decoration: none; transition: background .2s; }
+a.pill:hover { background: rgba(255, 255, 255, .3); }
+.hero-cta { display: flex; flex-wrap: wrap; align-items: center; gap: .8rem 1.2rem; margin-top: 2rem; }
+.btn { display: inline-flex; align-items: center; gap: .6rem; padding: .95rem 1.5rem; border-radius: 12px; border: 0; font: 700 1rem/1 var(--sans); cursor: pointer; text-decoration: none; transition: transform .2s, box-shadow .2s, background .2s; }
+.btn-white { background: #FFFFFF; color: #0052CC; box-shadow: 0 10px 24px rgba(0, 30, 90, .25); }
+.btn-white:hover { transform: translateY(-2px); box-shadow: 0 14px 30px rgba(0, 30, 90, .32); }
+.btn-blue { background: linear-gradient(120deg, #0052CC, #1B69FF); color: #FFFFFF; box-shadow: 0 10px 24px rgba(0, 82, 204, .25); }
+.btn-blue:hover { transform: translateY(-2px); }
+.dl-status { font-size: .9rem; min-height: 1.4em; }
+.hero .dl-status { color: rgba(255, 255, 255, .9); }
 
-/* HERO */
-.hero { padding: clamp(3rem, 8vw, 6.5rem) 0 clamp(3rem, 7vw, 5.5rem); overflow: hidden; }
-.hero .wrap { display: grid; grid-template-columns: 1.25fr .9fr; gap: clamp(2rem, 5vw, 4.5rem); align-items: center; }
-.hero h1 { font-family: var(--serif); font-weight: 600; font-size: clamp(2.6rem, 6.2vw, 4.6rem); line-height: 1.02; letter-spacing: -.02em; }
-.hero-role { margin-top: 1.4rem; font-size: clamp(1.1rem, 1.8vw, 1.3rem); line-height: 1.45; color: var(--blue); font-weight: 600; max-width: 34ch; }
-.hero-lead { margin-top: 1rem; color: var(--slate); max-width: 52ch; }
-.hero-cta { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 2rem; }
-.facts { display: grid; grid-template-columns: repeat(3, auto); justify-content: start; gap: 2.2rem; margin-top: 2rem; padding-top: 1.6rem; border-top: 1px solid var(--line); }
-.facts dt { font-family: var(--serif); font-size: 1.9rem; font-weight: 600; line-height: 1; }
-.facts dd { font-size: .88rem; color: var(--slate); margin-top: .45rem; max-width: 17ch; line-height: 1.35; }
-.dl-status { min-height: 1.4em; margin-top: .7rem; font-size: .9rem; color: var(--slate); }
+/* ---------- LAYOUT ---------- */
+main { position: relative; }
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.2rem; margin-top: -3.4rem; position: relative; z-index: 2; }
+.stat { background: var(--card); border-radius: 16px; padding: 1.5rem 1rem; text-align: center; box-shadow: 0 10px 30px rgba(15, 35, 80, .1); }
+.stat b { display: block; font-family: var(--display); font-size: clamp(2rem, 4vw, 2.6rem); line-height: 1; color: var(--blue); font-weight: 800; }
+.stat span { display: block; margin-top: .55rem; font-size: .9rem; font-weight: 600; color: var(--muted); }
+.sec { padding-top: clamp(3rem, 6vw, 4.5rem); }
+.sec-title { font-family: var(--display); font-size: clamp(1.6rem, 3vw, 2.1rem); font-weight: 700; color: var(--text); letter-spacing: -.02em; }
+.sec-title::after { content: ""; display: block; width: 60px; height: 4px; border-radius: 4px; margin-top: .8rem; background: linear-gradient(90deg, var(--blue-2), var(--teal)); }
+.sec-body { margin-top: 1.8rem; }
+.card { background: var(--card); border-radius: 16px; box-shadow: var(--shadow); border: 1px solid var(--line); transition: transform .25s, box-shadow .25s; }
+.card:hover { transform: translateY(-4px); box-shadow: var(--shadow-hover); }
 
-/* documentos apilados */
-.stack { position: relative; height: 420px; }
-.cover { position: absolute; width: 250px; aspect-ratio: 3 / 4; background: var(--paper); border: 1px solid var(--line); border-radius: 4px 10px 10px 4px; box-shadow: var(--cover-shadow); padding: 0 1.3rem 1.2rem 1.6rem; display: flex; flex-direction: column; overflow: hidden; transform-origin: 50% 90%; }
-.cover::before { content: ""; display: block; height: 30%; margin: 0 -1.3rem 1rem -1.6rem; background: var(--band); }
-.cover::after { content: ""; position: absolute; left: 10px; top: 0; bottom: 0; width: 1px; background: var(--line); }
-.cover .c-inst { font-size: .72rem; color: var(--slate); line-height: 1.3; }
-.cover .c-title { font-family: var(--serif); font-size: 1.12rem; line-height: 1.2; font-weight: 600; margin-top: .55rem; }
-.cover .c-year { margin-top: auto; font-size: .8rem; color: var(--slate); font-variant-numeric: tabular-nums; }
-.cover.c1 { --band: #7C93B8; left: 2%; top: 36px; transform: rotate(-8deg); }
-.cover.c2 { --band: #13233F; left: 22%; top: 12px; transform: rotate(3deg); }
-.cover.c3 { --band: #0052CC; left: 40%; top: 58px; transform: rotate(9deg); }
-.stack-cap { position: absolute; bottom: 0; left: 2%; right: 0; font-size: .85rem; color: var(--slate); }
-@media (prefers-reduced-motion: no-preference) {
-  .cover { animation: fan .9s cubic-bezier(.2, .7, .2, 1) both; }
-  .cover.c1 { animation-delay: .15s; } .cover.c2 { animation-delay: .3s; } .cover.c3 { animation-delay: .45s; }
-  @keyframes fan { from { transform: rotate(0deg) translateY(24px); opacity: 0; } }
-}
+/* Perfil */
+.perfil { padding: clamp(1.4rem, 3vw, 2rem) clamp(1.4rem, 3vw, 2.2rem); background: linear-gradient(135deg, var(--tint), rgba(0, 194, 160, .07)), var(--card); font-size: 1.05rem; line-height: 1.8; }
+.perfil:hover { transform: none; }
 
-/* INSTITUCIONES */
-.inst { background: var(--mist); border-block: 1px solid var(--line); padding: 1.6rem 0; }
-.inst .wrap { display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem 1.8rem; }
-.inst p { font-size: .9rem; color: var(--slate); }
-.inst ul { display: flex; flex-wrap: wrap; gap: .5rem 1.6rem; list-style: none; font-family: var(--serif); font-size: 1rem; font-weight: 600; }
+/* Formación */
+.edu { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
+.edu .card { padding: 1.5rem; display: flex; gap: 1.1rem; align-items: flex-start; }
+.ico { display: grid; place-items: center; width: 52px; height: 52px; border-radius: 14px; background: linear-gradient(135deg, #0052CC, #1B69FF); color: #FFFFFF; flex: none; }
+.ico svg { width: 26px; height: 26px; }
+.edu h3 { font-family: var(--display); font-size: 1.12rem; font-weight: 700; color: var(--text); line-height: 1.3; }
+.edu p { color: var(--blue); font-weight: 600; margin-top: .3rem; font-size: .95rem; }
 
-/* SECCIONES */
-.sec { padding: clamp(3.5rem, 8vw, 6rem) 0; }
-.sec + .sec { border-top: 1px solid var(--line); }
-.sec-head { display: grid; grid-template-columns: 280px 1fr; gap: 2.5rem; align-items: start; }
-h2 { font-family: var(--serif); font-weight: 600; font-size: clamp(1.8rem, 3.2vw, 2.4rem); line-height: 1.12; letter-spacing: -.015em; }
-.sec-intro { color: var(--slate); font-size: 1.05rem; padding-top: .55rem; }
-.perfil-text { font-family: var(--serif); font-size: clamp(1.15rem, 1.8vw, 1.32rem); line-height: 1.62; max-width: 62ch; }
-.skills { list-style: none; display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 2rem; margin-top: 3rem; }
-.skills li { padding: 1rem 0; border-top: 1px solid var(--line); font-weight: 500; line-height: 1.4; }
+/* Experiencia */
+.timeline { position: relative; padding-left: 2rem; display: grid; gap: 1.1rem; }
+.timeline::before { content: ""; position: absolute; left: 7px; top: 8px; bottom: 8px; width: 2px; background: linear-gradient(var(--blue-2), var(--teal)); border-radius: 2px; }
+.xp { position: relative; padding: 1.4rem 1.6rem; border-left: 4px solid var(--blue-2); }
+.xp::before { content: ""; position: absolute; left: calc(-2rem - 4px + 1px); top: 1.7rem; width: 14px; height: 14px; border-radius: 50%; background: var(--card); border: 3px solid var(--blue-2); }
+.xp-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; }
+.xp-org { color: var(--blue); font-weight: 700; font-size: 1.02rem; }
+.xp-role { font-family: var(--display); font-size: 1.08rem; color: var(--text); font-weight: 700; margin-top: .15rem; }
+.date { display: inline-flex; align-items: center; gap: .45rem; white-space: nowrap; background: var(--tint); color: var(--blue); font-weight: 600; font-size: .84rem; padding: .4rem .8rem; border-radius: 999px; }
+.xp ul { margin-top: .8rem; padding-left: 1.15rem; }
+.xp li { margin-top: .35rem; }
+.xp li::marker { color: var(--blue-2); }
 
-/* TRAYECTORIA */
-.tl { list-style: none; margin-top: 2.4rem; }
-.tl-item { display: grid; grid-template-columns: 280px 1fr; gap: 2.5rem; padding: 1.8rem 0; border-top: 1px solid var(--line); }
-.tl-years { font-weight: 600; color: var(--blue); font-variant-numeric: tabular-nums; padding-top: .2rem; }
-.tl-body h3 { font-family: var(--serif); font-size: 1.4rem; font-weight: 600; line-height: 1.25; }
-.tl-role { color: var(--slate); font-weight: 600; margin-top: .2rem; }
-.tl-body ul { list-style: disc; margin-top: .7rem; padding-left: 1.1rem; max-width: 70ch; }
-.tl-body li { margin-top: .35rem; }
-.tl-body li::marker { color: var(--blue); }
+/* Publicaciones */
+.pubs { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1.2rem; }
+.pub { padding: 1.3rem 1.4rem; display: flex; flex-direction: column; gap: .6rem; }
+.tag { align-self: flex-start; display: inline-flex; align-items: center; gap: .4rem; font-size: .76rem; font-weight: 700; color: var(--blue); background: var(--tint); padding: .35rem .75rem; border-radius: 999px; }
+.tag.t-art { color: #0B8A73; background: rgba(0, 194, 160, .13); }
+.tag.t-pon { color: #7A4FD1; background: rgba(122, 79, 209, .12); }
+.pub h3 { font-family: var(--display); font-size: 1rem; font-weight: 700; color: var(--text); line-height: 1.35; }
+.pub p { font-size: .88rem; color: var(--muted); margin-top: auto; }
 
-/* PUBLICACIONES */
-.pubs { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-top: 2.4rem; }
-.pubs h3 { font-size: 1rem; font-weight: 700; color: var(--slate); padding-bottom: .8rem; border-bottom: 2px solid var(--text); }
-.pubs ul { list-style: none; }
-.pubs li { padding: 1.1rem 0; border-bottom: 1px solid var(--line); display: grid; gap: .25rem; }
-.pub-t { font-family: var(--serif); font-size: 1.15rem; font-weight: 600; line-height: 1.3; }
-.pub-m { font-size: .9rem; color: var(--slate); }
+/* Investigaciones */
+.invs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; }
+.inv { padding: 1.4rem 1.5rem; border-top: 4px solid var(--teal); }
+.inv h3 { font-family: var(--display); font-size: 1.05rem; color: var(--text); font-weight: 700; margin: .9rem 0 .5rem; line-height: 1.3; }
+.inv p { font-size: .93rem; }
 
-/* INVESTIGACIONES */
-.invs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-top: 2.4rem; }
-.inv { border-top: 3px solid var(--blue); padding-top: 1.2rem; }
-.inv-y { font-weight: 600; color: var(--blue); font-size: .92rem; font-variant-numeric: tabular-nums; }
-.inv h3 { font-family: var(--serif); font-size: 1.25rem; line-height: 1.25; margin: .4rem 0 .6rem; font-weight: 600; }
-.inv p:last-child { color: var(--slate); font-size: .97rem; }
+/* Capacitaciones */
+.caps { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; }
+.caps li { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: .9rem; padding: .85rem 1.1rem; border-radius: 12px; }
+.cap-ic { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 10px; background: var(--tint); color: var(--blue); }
+.cap-n { font-weight: 500; color: var(--text); font-size: .95rem; line-height: 1.35; }
+.cap-y { font-size: .8rem; font-weight: 700; color: var(--blue); background: var(--tint); padding: .25rem .6rem; border-radius: 999px; white-space: nowrap; }
 
-/* FORMACIÓN */
-.edu-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 3rem; margin-top: 2.4rem; }
-.degree { padding: 1.3rem 0; border-top: 1px solid var(--line); }
-.degree h3 { font-family: var(--serif); font-size: 1.35rem; font-weight: 600; }
-.degree p { color: var(--slate); }
-.edu-grid h3.caps-t { font-size: 1rem; font-weight: 700; color: var(--slate); padding-bottom: .8rem; }
-.caps { list-style: none; }
-.caps li { display: flex; justify-content: space-between; gap: 1.5rem; padding: .7rem 0; border-top: 1px solid var(--line); font-size: .98rem; }
-.cap-y { color: var(--slate); font-variant-numeric: tabular-nums; white-space: nowrap; }
+/* Habilidades */
+.skills { list-style: none; display: flex; flex-wrap: wrap; gap: .7rem; }
+.skills li { display: inline-flex; align-items: center; gap: .5rem; padding: .65rem 1.05rem; border-radius: 999px; background: linear-gradient(135deg, var(--tint), rgba(0, 194, 160, .09)); border: 1px solid var(--tint-strong); color: var(--blue); font-weight: 600; font-size: .92rem; }
+.skills li svg { color: var(--teal); width: 1.25em; height: 1.25em; }
 
-/* CONTACTO */
-.contact { background: var(--ink); color: var(--on-ink); padding: clamp(3.5rem, 8vw, 6rem) 0; }
-.contact .wrap { display: grid; grid-template-columns: 1.1fr 1fr; gap: 3rem; align-items: start; }
-.contact h2 { color: #FFFFFF; }
-.contact .lead { color: var(--on-ink-soft); margin-top: 1rem; max-width: 40ch; }
-.contact .btn { margin-top: 2rem; background: #FFFFFF; color: #0B2A63; border-color: #FFFFFF; }
-.contact .btn:hover { background: #DCE7FA; border-color: #DCE7FA; }
-.contact .dl-status { color: var(--on-ink-soft); }
-.c-list { list-style: none; }
-.c-list li { border-top: 1px solid rgba(233, 239, 248, .16); padding: 1.05rem 0; }
-.c-list .k { font-size: .85rem; color: var(--on-ink-soft); }
-.c-list .v { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem; font-size: 1.12rem; margin-top: .15rem; overflow-wrap: anywhere; }
-.c-list a { text-decoration: none; }
-.c-list a:hover { text-decoration: underline; text-underline-offset: 4px; }
-footer { background: var(--ink); color: var(--on-ink-soft); font-size: .85rem; padding: 0 0 2rem; }
-footer .wrap { border-top: 1px solid rgba(233, 239, 248, .16); padding-top: 1.4rem; }
+/* Tagline + contacto */
+.tagline { margin-top: clamp(3rem, 6vw, 4.5rem); border-radius: 20px; padding: clamp(2rem, 5vw, 3rem); text-align: center; color: #FFFFFF; background: linear-gradient(120deg, #0052CC 0%, #1B69FF 60%, #00A98B 130%); position: relative; overflow: hidden; }
+.tagline::before { content: ""; position: absolute; width: 300px; height: 300px; border-radius: 50%; background: rgba(255, 255, 255, .08); left: -90px; top: -150px; }
+.tagline p { position: relative; font-family: var(--display); font-weight: 800; font-size: clamp(1.4rem, 3.4vw, 2.1rem); letter-spacing: -.02em; }
+.tagline .sub { font-family: var(--sans); font-weight: 500; font-size: 1rem; opacity: .9; margin-top: .5rem; letter-spacing: 0; }
+.tagline .btn { position: relative; margin-top: 1.5rem; }
+.tagline .dl-status { position: relative; margin-top: .6rem; color: rgba(255, 255, 255, .9); }
+footer { margin-top: clamp(3rem, 6vw, 4.5rem); background: #1A1A2E; color: #C8D0DE; padding: 2.8rem 0 2rem; }
+.f-grid { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1.5rem; align-items: flex-start; }
+.f-name { font-family: var(--display); font-weight: 700; color: #FFFFFF; font-size: 1.15rem; }
+.f-role { font-size: .92rem; margin-top: .2rem; }
+.f-links { display: flex; flex-wrap: wrap; gap: .6rem; list-style: none; }
+.f-links .pill { background: rgba(255, 255, 255, .07); border-color: rgba(255, 255, 255, .12); color: #E6EBF3; }
+.f-links a.pill:hover { background: rgba(255, 255, 255, .14); }
+.copy { margin-top: 2rem; padding-top: 1.2rem; border-top: 1px solid rgba(255, 255, 255, .1); font-size: .82rem; color: #8C97AB; }
 
-/* RESPONSIVE */
+/* Barra superior al hacer scroll */
+.topbar { position: fixed; top: 0; left: 0; right: 0; z-index: 20; padding-top: env(safe-area-inset-top, 0px); background: color-mix(in srgb, var(--card) 92%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); transform: translateY(-110%); transition: transform .3s; }
+.topbar.show { transform: none; }
+.topbar .wrap { display: flex; align-items: center; justify-content: space-between; gap: 1rem; height: 60px; }
+.topbar b { font-family: var(--display); color: var(--text); font-size: 1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.topbar .btn { padding: .65rem 1rem; font-size: .9rem; border-radius: 10px; white-space: nowrap; }
+
 @media (max-width: 900px) {
-  .hero .wrap, .contact .wrap, .edu-grid, .pubs { grid-template-columns: 1fr; }
-  .sec-head, .tl-item { grid-template-columns: 1fr; gap: .6rem; }
-  .skills { grid-template-columns: 1fr 1fr; }
+  .stats { grid-template-columns: 1fr 1fr; }
   .invs { grid-template-columns: 1fr; }
-  .stack { height: 380px; max-width: 460px; }
-  .nav-links li:not(:last-child) { display: none; }
+  .caps { grid-template-columns: 1fr; }
 }
-@media (max-width: 560px) {
-  .skills { grid-template-columns: 1fr; }
-  .facts { grid-template-columns: 1fr 1fr; gap: 1.4rem; }
-  .cover { width: 168px; padding: 0 .9rem .9rem 1.2rem; }
-  .cover::before { margin: 0 -.9rem .8rem -1.2rem; }
-  .cover .c-title { font-size: .95rem; }
-  .cover.c1 { left: 3%; } .cover.c2 { left: 25%; } .cover.c3 { left: 45%; }
-  .stack { height: 350px; }
-  .brand { font-size: .98rem; line-height: 1.2; }
-  .nav .wrap { height: 60px; }
+@media (max-width: 640px) {
+  .edu { grid-template-columns: 1fr; }
+  .xp-head { flex-direction: column; gap: .6rem; }
+  .timeline { padding-left: 1.4rem; }
+  .timeline::before { left: 4px; }
+  .xp { padding: 1.2rem 1.2rem; }
+  .xp::before { left: calc(-1.4rem - 4px - 1px); width: 12px; height: 12px; }
+  .hero .btn { width: 100%; justify-content: center; }
+  .pill { font-size: .86rem; }
+  .perfil { font-size: 1rem; line-height: 1.7; }
 }
-
+@media (prefers-reduced-motion: reduce) {
+  .card, .btn, .topbar { transition: none; }
+  .card:hover, .btn:hover { transform: none; }
+}
 /* ============ IMPRESIÓN: hoja de vida aprobada ============ */
 .print-cv { display: none; }
 @page { size: letter; margin: 0.5in 0 0.55in 0; }
@@ -208,136 +205,105 @@ footer .wrap { border-top: 1px solid rgba(233, 239, 248, .16); padding-top: 1.4r
   .print-cv li { margin-top: 1.5pt; break-inside: avoid; }
   .print-cv li::marker { color: #0052CC; }
 }
+
 </style>
 </head>
 <body>
 <div class="site">
-  <nav class="nav" aria-label="Principal">
+  <div class="topbar" aria-hidden="true" id="topbar">
     <div class="wrap">
-      <a class="brand" href="#inicio">Diana Marroquín Sandoval</a>
-      <ul class="nav-links">
-        <li><a href="#perfil">Perfil</a></li>
-        <li><a href="#trayectoria">Trayectoria</a></li>
-        <li><a href="#publicaciones">Publicaciones</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-        <li><button class="btn sm js-dl" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Hoja de vida</button></li>
-      </ul>
+      <b>Diana Isabel Marroquín Sandoval</b>
+      <button class="btn btn-blue js-dl" type="button" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Hoja de vida PDF</button>
     </div>
-  </nav>
+  </div>
 
-  <main>
-    <header class="hero" id="inicio">
-      <div class="wrap">
-        <div class="dl-zone">
-          <h1>Diana Isabel Marroquín Sandoval</h1>
-          <p class="hero-role">Asesora y especialista en construcción e implementación de política pública para la primera infancia</p>
-          <p class="hero-lead">Más de 23 años de experiencia en políticas educativas para la primera infancia y en la elaboración de lineamientos técnicos a nivel nacional y distrital.</p>
-          <div class="hero-cta">
-            <button class="btn js-dl" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Descargar hoja de vida (PDF)</button>
-            <a class="btn ghost" href="mailto:dianamarroquin29@gmail.com"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5h18v11H3z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m3.5 7 8.5 6.5L20.5 7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg> Escribir un correo</a>
-          </div>
-          <p class="dl-status" role="status" aria-live="polite"></p>
-          <dl class="facts">
-            <div><dt>23+</dt><dd>años de experiencia</dd></div>
-            <div><dt>8</dt><dd>publicaciones y documentos</dd></div>
-            <div><dt>2</dt><dd>títulos de la Universidad Pedagógica Nacional</dd></div>
-          </dl>
-        </div>
-        <div class="stack" aria-label="Documentos de política pública de su autoría">
-          <div class="cover c1"><p class="c-inst">Ministerio de Educación Nacional</p><p class="c-title">Derechos Básicos de Aprendizaje. Transición</p><p class="c-year">2016</p></div>
-          <div class="cover c2"><p class="c-inst">Secretaría de Educación del Distrito</p><p class="c-title">Lineamiento pedagógico y curricular educación inicial distrito</p><p class="c-year">2019</p></div>
-          <div class="cover c3"><p class="c-inst">Ministerio de Educación Nacional</p><p class="c-title">Bases curriculares para educación inicial y preescolar</p><p class="c-year">2017</p></div>
-          <p class="stack-cap">Coautora de documentos de referencia nacional y distrital</p>
-        </div>
+  <header class="hero" id="inicio">
+    <div class="wrap dl-zone">
+      <h1>Diana Isabel Marroquín Sandoval</h1>
+      <p class="role">Asesora y Especialista en Construcción e Implementación de Política Pública para la Primera Infancia</p>
+      <ul class="pills">
+        <li><a class="pill" href="tel:+573143933276"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3.5h3l1.5 4-2 1.3a11 11 0 0 0 6.1 6.1l1.3-2 4 1.5v3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg> 314 393 3276</a></li>
+        <li><a class="pill" href="tel:+573138494027"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3.5h3l1.5 4-2 1.3a11 11 0 0 0 6.1 6.1l1.3-2 4 1.5v3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg> 313 849 4027</a></li>
+        <li><a class="pill" href="mailto:dianamarroquin29@gmail.com"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5h18v11H3z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m3.5 7 8.5 6.5L20.5 7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg> dianamarroquin29@gmail.com</a></li>
+        <li><span class="pill"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.5-6.2-6.5-11a6.5 6.5 0 0 1 13 0c0 4.8-6.5 11-6.5 11Z" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="10" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/></svg> Bogotá, Colombia</span></li>
+        <li><a class="pill" href="https://www.linkedin.com/in/diana-marroquin/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg> LinkedIn</a></li>
+      </ul>
+      <div class="hero-cta">
+        <button class="btn btn-white js-dl" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Descargar hoja de vida (PDF)</button>
+        <p class="dl-status" role="status" aria-live="polite"></p>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <section class="inst" aria-label="Instituciones">
-      <div class="wrap">
-        <p>Ha trabajado con</p>
-        <ul>
-          <li>Ministerio de Educación Nacional</li>
-          <li>ICBF</li>
-          <li>Secretaría de Educación del Distrito</li>
-          <li>Universidad Pedagógica Nacional</li>
-          <li>Universidad de la Sabana</li>
-        </ul>
-      </div>
-    </section>
+  <main class="wrap">
+    <div class="stats" id="sentinel">
+      <div class="stat"><b>23+</b><span>Años de experiencia</span></div>
+      <div class="stat"><b>8</b><span>Publicaciones y documentos</span></div>
+      <div class="stat"><b>3</b><span>Investigaciones</span></div>
+      <div class="stat"><b>2</b><span>Títulos académicos</span></div>
+    </div>
 
     <section class="sec" id="perfil">
-      <div class="wrap">
-        <div class="sec-head">
-          <h2>Perfil profesional</h2>
-          <p class="perfil-text">Consultora y Asesora en Educación Infantil con más de 23 años de experiencia en construcción e implementación de políticas educativas para la primera infancia. Licenciada en Educación Preescolar y Magíster en Educación de la Universidad Pedagógica Nacional. Especialista en diseño e implementación de políticas públicas educativas, elaboración de lineamientos técnicos a nivel nacional y distrital. Coautora de bases curriculares para educación inicial y preescolar (2017) y lineamiento pedagógico y curricular del distrito (2019).</p>
-        </div>
-        <ul class="skills" aria-label="Habilidades y competencias"><li>Diseño e implementación de políticas públicas educativas</li><li>Gestión de proyectos educativos complejos</li><li>Desarrollo y evaluación curricular</li><li>Evaluación y mejoramiento de calidad educativa</li><li>Capacitación y formación de docentes</li><li>Gestión interinstitucional</li><li>Investigación educativa</li><li>Sistematización de experiencias</li><li>Diseño de entornos pedagógicos</li></ul>
-      </div>
-    </section>
-
-    <section class="sec" id="trayectoria">
-      <div class="wrap">
-        <div class="sec-head">
-          <h2>Trayectoria</h2>
-          <p class="sec-intro">Sector público, entidades territoriales y universidades.</p>
-        </div>
-        <ol class="tl"><li class="tl-item"><div class="tl-years">2024 – Actualidad</div><div class="tl-body"><h3>Ministerio de Educación Nacional – MEN</h3><ul><li>Orientar la construcción de lineamientos, orientaciones y documentos técnicos para el fortalecimiento de la gestión pedagógica y curricular de la Educación Inicial, con enfoque poblacional y territorial.</li><li>Apoyar la implementación y articulación de procesos y estrategias técnicas con enfoque poblacional y territorial entre el Ministerio de Educación Nacional y el ICBF.</li></ul></div></li><li class="tl-item"><div class="tl-years">2024</div><div class="tl-body"><h3>ICBF - Subdirección de Gestión Técnica</h3><p class="tl-role">Contratista</p><ul><li>Asistencia técnica para fortalecimiento de capacidades territoriales en articulación de educación inicial y garantía de trayectorias continuas.</li></ul></div></li><li class="tl-item"><div class="tl-years">2006 - 2023</div><div class="tl-body"><h3>Universidad Pedagógica Nacional</h3><p class="tl-role">Docente y Coordinadora</p><ul><li>Coordinación de práctica educativa, docencia de seminarios (currículo, investigación, proyecto de grado), asesoría de proyectos de grado, investigación educativa y apoyo a procesos de autoevaluación y acreditación.</li></ul></div></li><li class="tl-item"><div class="tl-years">2019 - 2020</div><div class="tl-body"><h3>Universidad de la Sabana</h3><p class="tl-role">Docente de Cátedra</p><ul><li>Docencia en práctica de educación inicial, literatura en educación inicial y didáctica de educación inicial.</li></ul></div></li><li class="tl-item"><div class="tl-years">2013 - 2019</div><div class="tl-body"><h3>Secretaría de Educación del Distrito</h3><p class="tl-role">Gestora Pedagógica y Consultora</p><ul><li>Gestión del componente pedagógico, formación de maestras de preescolar, asesoría pedagógica en localidades, escritura del lineamiento pedagógico y curricular 2019.</li></ul></div></li><li class="tl-item"><div class="tl-years">2015 - 2018</div><div class="tl-body"><h3>Ministerio de Educación Nacional</h3><p class="tl-role">Profesional Especializado</p><ul><li>Liderazgo de procesos pedagógicos y curriculares a nivel nacional. Producción de documentos técnicos sobre educación inicial, diseño universal de aprendizaje, cuidado y familia.</li></ul></div></li></ol>
-      </div>
-    </section>
-
-    <section class="sec" id="publicaciones">
-      <div class="wrap">
-        <h2>Publicaciones y documentos</h2>
-        <div class="pubs">
-          <div><h3>Libros y documentos oficiales</h3><ul><li><span class="pub-t">Bases curriculares para educación inicial y preescolar</span><span class="pub-m">Ministerio de Educación, 2017. ISBN 978-958-7</span></li><li><span class="pub-t">Lineamiento pedagógico y curricular educación inicial distrito</span><span class="pub-m">2019</span></li><li><span class="pub-t">Derechos Básicos de Aprendizaje. Transición</span><span class="pub-m">MEN, 2016. ISBN 978-958-691-926-5</span></li><li><span class="pub-t">Orientaciones para lectura y escritura emergente transición</span><span class="pub-m">2016. ISBN 978-958-691-932-6</span></li></ul></div>
-          <div><h3>Artículos y ponencias</h3><ul><li><span class="pub-t">Representaciones sociales que tienen docentes sobre didáctica</span><span class="pub-m">Artículo. Rev. Nodos y Nudos Vol.4 Núm.34, 2013</span></li><li><span class="pub-t">Transformando la práctica pedagógica</span><span class="pub-m">Artículo. Rev. Voces. Escuela Maternal, 2014</span></li><li><span class="pub-t">Trabajo por proyectos desde la experiencia &quot;Imakinadores&quot;</span><span class="pub-m">Ponencia, 2006</span></li><li><span class="pub-t">Acompáñame a caminar, construyendo juntos</span><span class="pub-m">Ponencia, 2014</span></li></ul></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="sec" id="investigaciones">
-      <div class="wrap">
-        <h2>Investigaciones</h2>
-        <div class="invs"><article class="inv"><p class="inv-y">2008-2010</p><h3>Sistematización de la Práctica Educativa UPN</h3><p>Develar y construir el sentido de la práctica educativa del proyecto curricular de educación infantil. CIUP Código DSI-098-08.</p></article><article class="inv"><p class="inv-y">2010</p><h3>Tesis de Maestría</h3><p>La construcción del sentido de la práctica educativa del Proyecto Curricular de Educación Infantil en escenarios ICBF mediante el diálogo de saberes.</p></article><article class="inv"><p class="inv-y">2012-2013</p><h3>Representaciones Sociales de Docentes</h3><p>Estudio sobre representaciones de docentes IPN, Escuela Maternal y UPN en torno a didáctica y su relación con prácticas educativas.</p></article></div>
-      </div>
+      <h2 class="sec-title">Perfil Profesional</h2>
+      <div class="sec-body"><p class="card perfil">Consultora y Asesora en Educación Infantil con más de 23 años de experiencia en construcción e implementación de políticas educativas para la primera infancia. Licenciada en Educación Preescolar y Magíster en Educación de la Universidad Pedagógica Nacional. Especialista en diseño e implementación de políticas públicas educativas, elaboración de lineamientos técnicos a nivel nacional y distrital. Coautora de bases curriculares para educación inicial y preescolar (2017) y lineamiento pedagógico y curricular del distrito (2019).</p></div>
     </section>
 
     <section class="sec" id="formacion">
-      <div class="wrap">
-        <h2>Formación</h2>
-        <div class="edu-grid">
-          <div>
-            <div class="degree"><h3>Magíster en Educación</h3><p>Universidad Pedagógica Nacional, 2010</p></div>
-            <div class="degree"><h3>Licenciada en Educación Preescolar</h3><p>Universidad Pedagógica Nacional, 2000</p></div>
-          </div>
-          <div>
-            <h3 class="caps-t">Capacitaciones y certificaciones</h3>
-            <ul class="caps"><li><span>La niñez en planes de desarrollo territorial</span><span class="cap-y">2024</span></li><li><span>Transformando acciones para protección de niñez migrante</span><span class="cap-y">2023</span></li><li><span>Atención Consciente - MINDFUNLES</span><span class="cap-y">2019</span></li><li><span>Seminario Internacional CONAIN</span><span class="cap-y">2015</span></li><li><span>Seminario Internacional de Educación Infantil</span><span class="cap-y">2013</span></li><li><span>IV Seminario Internacional: Filosofía Reggio Emilia</span><span class="cap-y">2012</span></li><li><span>Desarrollo de guías de estudio para aulas virtuales, San Buenaventura</span><span class="cap-y">2012</span></li><li><span>Diplomado: Lenguaje, pedagogía e infancia, Universidad Javeriana</span><span class="cap-y">2007</span></li><li><span>Inteligencias múltiples y enseñanza de las ciencias</span><span class="cap-y">2004-2005</span></li><li><span>Diplomado: Didáctica de la aritmética</span><span class="cap-y">2002-2003</span></li></ul>
-          </div>
-        </div>
+      <h2 class="sec-title">Formación Académica</h2>
+      <div class="sec-body edu">
+        <div class="card"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 4 10 5-10 5L2 9l10-5Z" fill="currentColor"/><path d="M6 11.5V16c0 1.4 2.7 3 6 3s6-1.6 6-3v-4.5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></span><div><h3>Magíster en Educación</h3><p>Universidad Pedagógica Nacional, 2010</p></div></div>
+        <div class="card"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 4 10 5-10 5L2 9l10-5Z" fill="currentColor"/><path d="M6 11.5V16c0 1.4 2.7 3 6 3s6-1.6 6-3v-4.5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></span><div><h3>Licenciada en Educación Preescolar</h3><p>Universidad Pedagógica Nacional, 2000</p></div></div>
       </div>
     </section>
 
-    <section class="contact" id="contacto">
-      <div class="wrap">
-        <div class="dl-zone">
-          <h2>Contacto</h2>
-          <p class="lead">Consultorías, asesoría técnica y formación en educación inicial y política pública para la primera infancia.</p>
-          <button class="btn js-dl" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Descargar hoja de vida (PDF)</button>
-          <p class="dl-status" role="status" aria-live="polite"></p>
-        </div>
-        <ul class="c-list">
-          <li><p class="k">Correo</p><p class="v"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5h18v11H3z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m3.5 7 8.5 6.5L20.5 7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg> <a href="mailto:dianamarroquin29@gmail.com">dianamarroquin29@gmail.com</a></p></li>
-          <li><p class="k">Teléfonos</p><p class="v"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3.5h3l1.5 4-2 1.3a11 11 0 0 0 6.1 6.1l1.3-2 4 1.5v3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg> <a href="tel:+573143933276">314 393 3276</a> <span aria-hidden="true">/</span> <a href="tel:+573138494027">313 849 4027</a></p></li>
-          <li><p class="k">LinkedIn</p><p class="v"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg> <a href="https://www.linkedin.com/in/diana-marroquin/" target="_blank" rel="noopener">linkedin.com/in/diana-marroquin</a></p></li>
-          <li><p class="k">Ubicación</p><p class="v"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.5-6.2-6.5-11a6.5 6.5 0 0 1 13 0c0 4.8-6.5 11-6.5 11Z" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="10" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/></svg> Bogotá, Colombia</p></li>
-        </ul>
-      </div>
+    <section class="sec" id="experiencia">
+      <h2 class="sec-title">Experiencia Laboral</h2>
+      <div class="sec-body timeline"><article class="xp card"><div class="xp-head"><div><p class="xp-org">Ministerio de Educación Nacional – MEN</p></div><span class="date"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 10h17M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> 2024 – Actualidad</span></div><ul><li>Orientar la construcción de lineamientos, orientaciones y documentos técnicos para el fortalecimiento de la gestión pedagógica y curricular de la Educación Inicial, con enfoque poblacional y territorial.</li><li>Apoyar la implementación y articulación de procesos y estrategias técnicas con enfoque poblacional y territorial entre el Ministerio de Educación Nacional y el ICBF.</li></ul></article><article class="xp card"><div class="xp-head"><div><p class="xp-org">ICBF - Subdirección de Gestión Técnica</p><h3 class="xp-role">Contratista</h3></div><span class="date"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 10h17M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> 2024</span></div><ul><li>Asistencia técnica para fortalecimiento de capacidades territoriales en articulación de educación inicial y garantía de trayectorias continuas.</li></ul></article><article class="xp card"><div class="xp-head"><div><p class="xp-org">Universidad Pedagógica Nacional</p><h3 class="xp-role">Docente y Coordinadora</h3></div><span class="date"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 10h17M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> 2006 - 2023</span></div><ul><li>Coordinación de práctica educativa, docencia de seminarios (currículo, investigación, proyecto de grado), asesoría de proyectos de grado, investigación educativa y apoyo a procesos de autoevaluación y acreditación.</li></ul></article><article class="xp card"><div class="xp-head"><div><p class="xp-org">Universidad de la Sabana</p><h3 class="xp-role">Docente de Cátedra</h3></div><span class="date"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 10h17M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> 2019 - 2020</span></div><ul><li>Docencia en práctica de educación inicial, literatura en educación inicial y didáctica de educación inicial.</li></ul></article><article class="xp card"><div class="xp-head"><div><p class="xp-org">Secretaría de Educación del Distrito</p><h3 class="xp-role">Gestora Pedagógica y Consultora</h3></div><span class="date"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 10h17M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> 2013 - 2019</span></div><ul><li>Gestión del componente pedagógico, formación de maestras de preescolar, asesoría pedagógica en localidades, escritura del lineamiento pedagógico y curricular 2019.</li></ul></article><article class="xp card"><div class="xp-head"><div><p class="xp-org">Ministerio de Educación Nacional</p><h3 class="xp-role">Profesional Especializado</h3></div><span class="date"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 10h17M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> 2015 - 2018</span></div><ul><li>Liderazgo de procesos pedagógicos y curriculares a nivel nacional. Producción de documentos técnicos sobre educación inicial, diseño universal de aprendizaje, cuidado y familia.</li></ul></article></div>
+    </section>
+
+    <section class="sec" id="publicaciones">
+      <h2 class="sec-title">Publicaciones y Documentos</h2>
+      <div class="sec-body pubs"><article class="pub card"><span class="tag"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5v-15Z M4 20.5A2.5 2.5 0 0 1 6.5 18H20v3H6.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg> Libro / Documento oficial</span><h3>Bases curriculares para educación inicial y preescolar</h3><p>Ministerio de Educación, 2017. ISBN 978-958-7</p></article><article class="pub card"><span class="tag"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5v-15Z M4 20.5A2.5 2.5 0 0 1 6.5 18H20v3H6.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg> Libro / Documento oficial</span><h3>Lineamiento pedagógico y curricular educación inicial distrito</h3><p>2019</p></article><article class="pub card"><span class="tag"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5v-15Z M4 20.5A2.5 2.5 0 0 1 6.5 18H20v3H6.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg> Libro / Documento oficial</span><h3>Derechos Básicos de Aprendizaje. Transición</h3><p>MEN, 2016. ISBN 978-958-691-926-5</p></article><article class="pub card"><span class="tag"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5v-15Z M4 20.5A2.5 2.5 0 0 1 6.5 18H20v3H6.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg> Libro / Documento oficial</span><h3>Orientaciones para lectura y escritura emergente transición</h3><p>2016. ISBN 978-958-691-932-6</p></article><article class="pub card"><span class="tag t-art"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H6.5A1.5 1.5 0 0 0 5 4.5v15A1.5 1.5 0 0 0 6.5 21h11a1.5 1.5 0 0 0 1.5-1.5V8l-5-5Z M14 3v5h5M8.5 13h7M8.5 16.5h7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg> Artículo</span><h3>Representaciones sociales que tienen docentes sobre didáctica</h3><p>Rev. Nodos y Nudos Vol.4 Núm.34, 2013</p></article><article class="pub card"><span class="tag t-art"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H6.5A1.5 1.5 0 0 0 5 4.5v15A1.5 1.5 0 0 0 6.5 21h11a1.5 1.5 0 0 0 1.5-1.5V8l-5-5Z M14 3v5h5M8.5 13h7M8.5 16.5h7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg> Artículo</span><h3>Transformando la práctica pedagógica</h3><p>Rev. Voces. Escuela Maternal, 2014</p></article><article class="pub card"><span class="tag t-pon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> Ponencia</span><h3>Trabajo por proyectos desde la experiencia &quot;Imakinadores&quot;</h3><p>2006</p></article><article class="pub card"><span class="tag t-pon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> Ponencia</span><h3>Acompáñame a caminar, construyendo juntos</h3><p>2014</p></article></div>
+    </section>
+
+    <section class="sec" id="investigaciones">
+      <h2 class="sec-title">Investigaciones</h2>
+      <div class="sec-body invs"><article class="inv card"><span class="date"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m16 16 4.5 4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> 2008-2010</span><h3>Sistematización de la Práctica Educativa UPN</h3><p>Develar y construir el sentido de la práctica educativa del proyecto curricular de educación infantil. CIUP Código DSI-098-08.</p></article><article class="inv card"><span class="date"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m16 16 4.5 4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> 2010</span><h3>Tesis de Maestría</h3><p>La construcción del sentido de la práctica educativa del Proyecto Curricular de Educación Infantil en escenarios ICBF mediante el diálogo de saberes.</p></article><article class="inv card"><span class="date"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m16 16 4.5 4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> 2012-2013</span><h3>Representaciones Sociales de Docentes</h3><p>Estudio sobre representaciones de docentes IPN, Escuela Maternal y UPN en torno a didáctica y su relación con prácticas educativas.</p></article></div>
+    </section>
+
+    <section class="sec" id="capacitaciones">
+      <h2 class="sec-title">Capacitaciones y Certificaciones</h2>
+      <ul class="sec-body caps"><li class="card"><span class="cap-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m8.5 13.3-1.5 7.2 5-2.5 5 2.5-1.5-7.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span><span class="cap-n">La niñez en planes de desarrollo territorial</span><span class="cap-y">2024</span></li><li class="card"><span class="cap-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m8.5 13.3-1.5 7.2 5-2.5 5 2.5-1.5-7.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span><span class="cap-n">Transformando acciones para protección de niñez migrante</span><span class="cap-y">2023</span></li><li class="card"><span class="cap-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m8.5 13.3-1.5 7.2 5-2.5 5 2.5-1.5-7.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span><span class="cap-n">Atención Consciente - MINDFUNLES</span><span class="cap-y">2019</span></li><li class="card"><span class="cap-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m8.5 13.3-1.5 7.2 5-2.5 5 2.5-1.5-7.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span><span class="cap-n">Seminario Internacional CONAIN</span><span class="cap-y">2015</span></li><li class="card"><span class="cap-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m8.5 13.3-1.5 7.2 5-2.5 5 2.5-1.5-7.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span><span class="cap-n">Seminario Internacional de Educación Infantil</span><span class="cap-y">2013</span></li><li class="card"><span class="cap-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m8.5 13.3-1.5 7.2 5-2.5 5 2.5-1.5-7.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span><span class="cap-n">IV Seminario Internacional: Filosofía Reggio Emilia</span><span class="cap-y">2012</span></li><li class="card"><span class="cap-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m8.5 13.3-1.5 7.2 5-2.5 5 2.5-1.5-7.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span><span class="cap-n">Desarrollo de guías de estudio para aulas virtuales, San Buenaventura</span><span class="cap-y">2012</span></li><li class="card"><span class="cap-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m8.5 13.3-1.5 7.2 5-2.5 5 2.5-1.5-7.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span><span class="cap-n">Diplomado: Lenguaje, pedagogía e infancia, Universidad Javeriana</span><span class="cap-y">2007</span></li><li class="card"><span class="cap-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m8.5 13.3-1.5 7.2 5-2.5 5 2.5-1.5-7.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span><span class="cap-n">Inteligencias múltiples y enseñanza de las ciencias</span><span class="cap-y">2004-2005</span></li><li class="card"><span class="cap-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m8.5 13.3-1.5 7.2 5-2.5 5 2.5-1.5-7.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span><span class="cap-n">Diplomado: Didáctica de la aritmética</span><span class="cap-y">2002-2003</span></li></ul>
+    </section>
+
+    <section class="sec" id="habilidades">
+      <h2 class="sec-title">Habilidades y Competencias</h2>
+      <ul class="sec-body skills"><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="currentColor" opacity=".16"/><path d="m8 12.3 2.7 2.7L16.2 9.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Diseño e implementación de políticas públicas educativas</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="currentColor" opacity=".16"/><path d="m8 12.3 2.7 2.7L16.2 9.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Gestión de proyectos educativos complejos</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="currentColor" opacity=".16"/><path d="m8 12.3 2.7 2.7L16.2 9.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Desarrollo y evaluación curricular</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="currentColor" opacity=".16"/><path d="m8 12.3 2.7 2.7L16.2 9.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Evaluación y mejoramiento de calidad educativa</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="currentColor" opacity=".16"/><path d="m8 12.3 2.7 2.7L16.2 9.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Capacitación y formación de docentes</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="currentColor" opacity=".16"/><path d="m8 12.3 2.7 2.7L16.2 9.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Gestión interinstitucional</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="currentColor" opacity=".16"/><path d="m8 12.3 2.7 2.7L16.2 9.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Investigación educativa</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="currentColor" opacity=".16"/><path d="m8 12.3 2.7 2.7L16.2 9.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Sistematización de experiencias</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="currentColor" opacity=".16"/><path d="m8 12.3 2.7 2.7L16.2 9.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Diseño de entornos pedagógicos</li></ul>
+    </section>
+
+    <section class="tagline dl-zone">
+      <p>Consultora Experta en Educación Infantil</p>
+      <p class="sub">Política pública para la primera infancia, lineamientos técnicos y formación docente</p>
+      <button class="btn btn-white js-dl" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Descargar hoja de vida (PDF)</button>
+      <p class="dl-status" role="status" aria-live="polite"></p>
     </section>
   </main>
-  <footer><div class="wrap">© 2026 Diana Isabel Marroquín Sandoval</div></footer>
-</div>
 
+  <footer>
+    <div class="wrap">
+      <div class="f-grid">
+        <div><p class="f-name">Diana Isabel Marroquín Sandoval</p><p class="f-role">Consultora en Educación Infantil, Bogotá, Colombia</p></div>
+        <ul class="f-links">
+          <li><a class="pill" href="mailto:dianamarroquin29@gmail.com"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5h18v11H3z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m3.5 7 8.5 6.5L20.5 7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg> dianamarroquin29@gmail.com</a></li>
+          <li><a class="pill" href="tel:+573143933276"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3.5h3l1.5 4-2 1.3a11 11 0 0 0 6.1 6.1l1.3-2 4 1.5v3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg> 314 393 3276</a></li>
+          <li><a class="pill" href="tel:+573138494027"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3.5h3l1.5 4-2 1.3a11 11 0 0 0 6.1 6.1l1.3-2 4 1.5v3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg> 313 849 4027</a></li>
+          <li><a class="pill" href="https://www.linkedin.com/in/diana-marroquin/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg> LinkedIn</a></li>
+        </ul>
+      </div>
+      <p class="copy">© 2026 Diana Isabel Marroquín Sandoval</p>
+    </div>
+  </footer>
+</div>
 <!-- Versión de impresión: texto idéntico a la hoja de vida aprobada -->
 <article class="print-cv" aria-hidden="true">
   <div class="p-band">
@@ -408,7 +374,17 @@ footer .wrap { border-top: 1px solid rgba(233, 239, 248, .16); padding-top: 1.4r
     }
   }
   document.querySelectorAll(".js-dl").forEach(function (b) { b.addEventListener("click", download); });
+  var bar = document.getElementById("topbar"), sent = document.getElementById("sentinel");
+  if ("IntersectionObserver" in window && bar && sent) {
+    new IntersectionObserver(function (en) {
+      var hidden = en[0].boundingClientRect.top < 0 && !en[0].isIntersecting;
+      bar.classList.toggle("show", hidden);
+      bar.setAttribute("aria-hidden", hidden ? "false" : "true");
+      bar.querySelector("button").tabIndex = hidden ? 0 : -1;
+    }).observe(sent);
+  }
 })();
 </script>
 </body>
 </html>
+
